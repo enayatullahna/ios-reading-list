@@ -58,4 +58,17 @@ class BookController {
         //
         //
     }
+    
+    
+    // part 1 section 7
+    var readBooks: [Book] {
+        let readBookList = books.filter
+        return readBookList
+    }
+    
+    // part 1 section 8
+    var unreadBooks: [Book] {
+        let unreadBookList = books.filter
+        return unreadBookList
+    }
 }
